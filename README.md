@@ -10,14 +10,6 @@ I spent 5+ years in medical insurance claims, working my way up from data entry 
 
 ### Featured Projects
 
-#### [Healthcare Claims Fraud Analysis](https://github.com/jscode-1302/claims_analysis)
-SQL-based analysis of healthcare insurance claims to find which factors signal fraud, with a Power BI dashboard.
-- **Claim amount is the strongest fraud signal.** Combined with high provider claim volume, the fraud rate reaches **52.9%**.
-- **Fraudulent claims are submitted ~3× faster:** in **5.06 days** on average, vs **15.07 days** for legitimate claims.
-- **Fraudulent claims get less money approved:** even approved ones get **62.6%** of the claimed amount, vs **87.2%** for legitimate claims.
-
-`SQL` `DuckDB` `Python` `Pandas` `Power BI`
-
 #### [Insurance Claims Optimization](https://github.com/jscode-1302/insurance-claims-optimization)
 End-to-end statistical analysis of 1,243 claims to improve operational efficiency and customer satisfaction, using hypothesis testing, an A/B test and regression.
 - **Digital filing beats phone filing:** **37%** faster response time, **~2 days** faster settlement, and **+0.48** satisfaction points.
@@ -25,6 +17,14 @@ End-to-end statistical analysis of 1,243 claims to improve operational efficienc
 - **Response time is the strongest satisfaction driver**, followed by adjuster experience and settlement speed (the regression explains 58% of the variance).
 
 `Python` `SciPy` `statsmodels` `DuckDB` `A/B Testing` `Regression`
+
+#### [Healthcare Claims Fraud Analysis](https://github.com/jscode-1302/claims_analysis)
+SQL-based analysis of healthcare insurance claims to find which factors signal fraud, with a Power BI dashboard.
+- **Claim amount is the strongest fraud signal.** Combined with high provider claim volume, the fraud rate reaches **52.9%**.
+- **Fraudulent claims are submitted ~3× faster:** in **5.06 days** on average, vs **15.07 days** for legitimate claims.
+- **Fraudulent claims get less money approved:** even approved ones get **62.6%** of the claimed amount, vs **87.2%** for legitimate claims.
+
+`SQL` `DuckDB` `Python` `Pandas` `Power BI`
 
 ---
 
@@ -35,20 +35,6 @@ End-to-end statistical analysis of 1,243 claims to improve operational efficienc
 - **Backend:** Django · Flask · REST APIs
 - **Workflow:** Jupyter · Git/GitHub · Jira · Slack
 - **Domain:** Medical claims adjudication · ICD-10 & CPT coding · Data quality · Process improvement
-
----
-
-### Currently building
-
-A Flask app that serves claims analysis through a REST API and a simple dashboard, turning my notebook analyses into something people can use.
-
----
-
-### Why domain experience matters
-
-Claims data is messy in ways that only make sense once you've processed those claims yourself. I know how medical coding works, why a claim gets stuck, and which data fields can't be trusted. I bring that context into every analysis.
-
----
 
 ### Connect with me
 
