@@ -14,7 +14,7 @@ I spent 5+ years in medical insurance claims, working my way up from data entry 
 End-to-end statistical analysis of 1,243 claims to improve operational efficiency and customer satisfaction, using hypothesis testing, an A/B test and regression.
 - **Digital filing beats phone filing:** **37%** faster response time, **~2 days** faster settlement, and **+0.48** satisfaction points.
 - **The new claims portal raised satisfaction by 7.3%** (+0.53 points, 95% CI 0.39–0.67) in an A/B test, which supports a full rollout.
-- **Response time is the strongest satisfaction driver**, followed by adjuster experience and settlement speed (the regression explains 60% of the variance).
+- **Adjuster experience and response time are the strongest satisfaction drivers** (nearly tied), followed by settlement speed (the regression explains 60% of the variance).
 
 `Python` `SciPy` `statsmodels` `DuckDB` `A/B Testing` `Regression`
 
